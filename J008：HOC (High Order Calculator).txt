@@ -1,0 +1,47 @@
+﻿J008：HOC (High Order Calculator)
+
+The Unix Programming Environment - Brian Kernighan, Rob Pike
+(Prentice-Hall 1984, ISBN 0-13-937681-X)
+
+下載：
+
+# The original code from the Unix Programming Environment book, including hoc.
+https://web.archive.org/web/20000816174822/http://cm.bell-labs.com/who/bwk/unixprogenv.tar.gz
+
+# Source code of hoc from Bell Labs, released as free software. This is the Research Unix version, slightly improved over the one in the book.
+https://web.archive.org/web/19991011232359/http://netlib.bell-labs.com/~bwk/hoc.sh
+
+# an extended version of hoc by Nelson H. F. Beebe.
+http://www.math.utah.edu/pub/hoc/
+http://ftp.math.utah.edu/pub/hoc/hoc-7.0.6.beta.pdf
+http://ftp.math.utah.edu/pub/hoc/hoc-7.0.6.beta.zip
+http://ftp.math.utah.edu/pub/hoc/hoc-7.0.6.beta.zip-lst
+
+# an extended version of hoc by Nadav Y. Har'El.
+http://nadav.harel.org.il/homepage/hoc/
+http://nadav.harel.org.il/homepage/hoc/hoc-9.2.tgz
+http://nadav.harel.org.il/homepage/work.html
+
+# yacc-1.9.3-1
+https://sourceforge.net/projects/tiny-cobol/files/misc/yacc-1.9.3-1.mingw32.zip
+https://sourceforge.net/projects/tiny-cobol/files/misc/yacc-1.9.3-1.tar.gz
+
+# yacc, or oyacc, is a portable version of the OpenBSD Yacc program.
+https://github.com/ibara/yacc
+https://github.com/ibara/yacc/releases
+https://github.com/ibara/yacc/releases/tag/oyacc-6.6
+https://github.com/ibara/yacc/releases/download/oyacc-6.6/oyacc-6.6.tar.gz
+
+後記：
+
+hoc-7.0.6 沒實作，因為 hoc 只是學習教材，沒必要搞成 DSL。
+
+oyacc-6.6 實際上就是 yacc193，加 o 表示 OpenBSD (Berkeley Software Distribute)
+而 byacc (Berkeley Yacc) 現在通稱為 yacc。早舊的 yacc 反而要稱之 Unix yacc。
+6.6 大概是他實作的版本，但只是要加入 portable 也要到 6.6，難道每加入一個 OS 就要加一版本？
+
+hoc6o 這個目錄，只是要驗證 oyacc 的正確性。
+
+(END)
+
+https://github.com/jans0204/J008-HOC-High-Order-Calculator-
